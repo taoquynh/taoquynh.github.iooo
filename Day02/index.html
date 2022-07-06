@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <!-- internal CSS -->
+    <style>
+      #rect1 {
+        width: 200px;
+        height: 200px;
+        background-color: aquamarine;
+      }
+
+      div#rect2 {
+        /* width: 2000px; */
+        background-color: beige;
+      }
+
+      #hi {
+        width: 2000px;
+        background-color: aqua;
+      }
+
+      .textColor {
+        color: purple;
+      }
+
+      .textFont {
+        font-size: 50px;
+      }
+    </style>
+
+    <!-- Nhúng file CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- inline CSS -->
+    <p
+      style="
+        color: red;
+        font-size: 30px;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+        background-color: antiquewhite;
+        text-decoration: underline;
+        text-transform: capitalize;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 15px;
+        margin-top: 100px;
+      "
+    >
+      Học CSS - Bài hát yêu thích (gồm tên, hình ảnh bài hát, nghệ sỹ hát / sáng
+      tác bài hát) - Nhân vật nổi tiếng truyền cảm hứng cho bạn (tên, lý do nổi
+      tiếng, hình ảnh) - Các nội dung khác bạn y
+    </p>
+
+    <div id="rect1"></div>
+
+    <div id="rect2">
+      <a href="#">Google</a>
+      <p id="hi">Hi!!!</p>
+    </div>
+
+    <h2 class="textColor textFont">Tiêu đề 1</h2>
+
+    <h2 class="textColor">Tiêu đề 2</h2>
+
+    <!-- Phần tử được CSS trong file style.css -->
+    <h1 id="topic">Subject: Cascading Style Sheet</h1>
+    <p class="text">What is CSS?</p>
+    <a class="link" href="https://bicbucket.org" target="_blank">CSS Tutorial</a>
+    <img
+      class="photo"
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
+      alt="css-photo"
+    />
+  </body>
+</html>
